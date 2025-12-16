@@ -1,0 +1,55 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: #Fbd8e7;
+    margin:0;
+
+}
+header>img{
+    max-width: 6rem;
+    margin:1rem;
+}
+header{
+    background-color: #ccb4d7;
+}
+header>h1{
+    display: inline-block;
+    margin:1rem 0;
+    vertical-align:top;
+}
+header>nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+nav>a:hover{
+    background-color:rgb(200,200,205);
+}
+body main{
+    background-image: url(images/festivalmain.webp);
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+main{
+    padding: 1rem;
+}
+.minnesota h2{
+    display: flex;
+    justify-content: center;
+}
+.minnesota h1{
+    font-size: 3.5rem;
+    color:black;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.subscribe{
+    display: flex;
+    align-items: center;     
+    min-height: 100vh;
+    color:white;
+    font-size: larger;
+}

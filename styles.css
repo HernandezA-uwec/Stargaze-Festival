@@ -1,3 +1,146 @@
 body{
     font-family: 'Mulish', sans-serif;
+    background-color: #Fbd8e7;
+    margin:0;
+
+}
+h1{
+    color:#93288d;
+}
+header>img{
+    max-width: 6rem;
+    margin:1rem;
+}
+header{
+    background-color: #ccb4d7;
+}
+header>h1{
+    display: inline-block;
+    margin:1rem 0;
+    vertical-align:top;
+}
+header>nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: #Fbd8e7;
+    margin:0;
+}
+.about{
+    background-color: #ccb4d7;
+    width:300px;
+    padding:20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    background-color: #ccb4d7;
+    width:300px;
+    padding:20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.team{
+    background-color: #ccb4d7;
+    width:300px;
+    padding:20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials{
+    background-color: #ccb4d7;
+    width:250px;
+    padding:2px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.artist{
+  display:flex;
+  align-items:flex-start;
+  gap:28px;
+  margin:22px 0 40px;
+}
+
+.artist img{
+  width:300px;
+  height:200px;
+  object-fit:cover;
+  border-radius:4px;
+}
+
+.info h3{
+  margin:0;
+  font-size:56px;
+  font-weight:800;
+}
+
+.info ul{
+  margin:10px 0 0 28px;         
+  font-size:26px;
+  line-height:1.25;
+}
+.performers{
+    display: flex;
+    flex-direction: row;
+    display:flex;
+    gap:120px;                 
+}
+
+.performers ul{
+  list-style: disc;
+  font-size:32px;
+  line-height:1.4;
+  padding-left:30px;        
+}
+.tickets{
+  background: #f6d6e3;
+  padding: 40px 24px;
+  max-width: 700px;
+}
+
+.tickets h2{
+  color:#3f2a4e;
+  font-size: 54px;
+  margin: 22px 0 18px;
+  font-weight: 800;
+}
+
+.ticket-row{
+  display: grid;
+  grid-template-columns: 1fr 110px;
+  gap: 26px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.ticket-name{
+  background:#aecdE9;
+  padding: 26px 22px;
+  font-size: 44px;
+}
+
+.ticket-price{
+  background:#b3b3b3;    
+  padding: 26px 0;
+  font-size: 44px;
+  text-align: center;
+  font-weight: 700;
 }
