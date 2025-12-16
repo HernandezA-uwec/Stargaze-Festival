@@ -39,6 +39,11 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .contact{
     background-color: #ccb4d7;
     width:300px;
@@ -60,7 +65,7 @@ body{
 }
 .socials{
     background-color: #ccb4d7;
-    width:250px;
+    width:200px;
     padding:2px;
     border-radius: 6px;
     display: flex;
@@ -143,4 +148,96 @@ body{
   font-size: 44px;
   text-align: center;
   font-weight: 700;
+}
+.food-vendors{
+  background: #ccb4d7;      
+  border-radius: 10px;
+  padding: 20px 22px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food-vendors p{
+  font-size: 22px;
+  margin-top: 0;
+}
+.food-vendors ul{
+  margin-top: 10px;
+  padding-left: 26px;
+  font-size: 22px;
+  line-height: 1.35;
+}
+.food-images img{
+  display: block;
+  margin: 14px auto 18px; 
+  object-fit: cover;
+}
+.business-images img{
+    display: block;
+  margin: 14px auto 18px; 
+  object-fit: cover;
+}
+.small-business{
+  background: #ccb4d7;  
+  border-radius: 10px;
+  padding: 20px 22px;
+  max-width: 900px;
+}
+.small-business p{
+  font-size: 22px;
+  margin-top: 0;
+}
+.small-business ul{
+  margin-top: 10px;
+  padding-left: 26px;
+  font-size: 22px;
+  line-height: 1.35;
+}
+@media (min-width:1100px){
+    .about{
+        width:800px;
+        padding:20px;
+        border-radius: 6px;
+    }
+    .information{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px 80px;
+    }
+    .words{
+        text-align: center;
+        font-size: 48px;
+    }
+    .performers{
+        display: flex;
+        justify-content: center;
+    }
+    .tickets{
+        padding: 40px 80px;
+    }
+    .food-vendors{
+        width:800px;
+        padding:20px;
+        border-radius: 6px;
+    }
+    .food-images{
+        display: flex;
+        justify-content: center;  
+        gap: 40px;               
+        margin-top: 18px;
+}
+    .food-images img{
+        object-fit: cover;
+}
+    .business-images{
+        display: flex;
+        justify-content: center;  
+        gap: 40px;               
+        margin-top: 18px;
+    }
+    .business-images img{
+        object-fit: cover;
+    }
 }

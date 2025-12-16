@@ -39,7 +39,7 @@ main{
     display: flex;
     justify-content: center;
 }
-.minnesota h1{
+.minnesota b{
     font-size: 3.5rem;
     color:black;
     margin-bottom: 0;
